@@ -20,7 +20,7 @@ zerotrust-sesion13/
 │   ├── nginx/nginx.conf         # Nginx con mTLS y TLS 1.3
 │   └── scripts/emitir-bus.sh    # Emisión de certificados de buses en lote
 ├── reto2-hospitvalle/
-│   ├── luks/NOTAS.md            # (los .img, .keyfile y .bak no se versionan)
+│   ├── luks/                    # (los .img, .keyfile y .bak no se versionan)
 │   └── k8s/
 │       ├── 00-namespace.yaml        # Namespace con Pod Security Admission "restricted"
 │       ├── 01-sealed-pg-uci-cred.yaml  # Credencial sellada (texto cifrado)
